@@ -1,0 +1,6 @@
+while (1) {
+    printf("Primera linea de salida.");
+    printf("Segunda linea de salida.");
+    printf("Tercera linea!");
+    break;
+}

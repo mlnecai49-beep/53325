@@ -1,0 +1,4 @@
+while (1) {
+    printf("Falta el punto y coma despues del printf")
+    break;
+}
