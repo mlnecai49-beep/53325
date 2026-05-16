@@ -1,0 +1,4 @@
+while (x) {
+    printf("Condicion invalida, x no es 0 ni 1");
+    break;
+}

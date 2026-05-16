@@ -1,0 +1,16 @@
+{
+  "name": "analizador-subc",
+  "version": "1.0.0",
+  "description": "Analizador de un sub-lenguaje de C con ANTLR4 y JavaScript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "generate": "java -jar antlr/antlr-4.13.2-complete.jar -Dlanguage=JavaScript -visitor -listener -o generated SubC.g4",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "antlr4": "^4.13.2"
+  },
+  "keywords": ["antlr4", "parser", "compiladores", "utn"],
+  "license": "ISC"
+}
